@@ -136,6 +136,8 @@ namespace ChatClientCS.ViewModels
         #endregion
 
         #region Login Command
+
+
         private ICommand _loginCommand;
         public ICommand LoginCommand
         {

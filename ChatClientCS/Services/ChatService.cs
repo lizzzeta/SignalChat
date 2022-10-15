@@ -23,7 +23,7 @@ namespace ChatClientCS.Services
 
         private IHubProxy hubProxy;
         private HubConnection connection;
-        private string url = "http://localhost/192.168.137.37/";
+        private string url = "http://127.0.0.1";
 
         public async Task ConnectAsync()
         {

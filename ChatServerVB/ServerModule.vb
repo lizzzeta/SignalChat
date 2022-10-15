@@ -6,7 +6,7 @@ Imports Owin
 Module ServerModule
 
     Sub Main()
-        Dim url = "http://localhost/192.168.137.37/"
+        Dim url = "http://localhost:8080/signalchat"
         Using WebApp.Start(Of Startup)(url)
         Console.WriteLine($"Server running at {url}")
             Console.ReadLine()
